@@ -8,21 +8,24 @@
     <title>Document</title>
   </head>
   <style>
+    body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
     .container {
       width: 100%;
       height: 100%;
       display: flex;
-    }
-    #ballon {
-      border-radius: 50%;
-      margin-left: 0%;
-      margin-right: auto;
-      margin-top: 200px;
+      justify-content: center;
+      align-items: center;
     }
   </style>
   <body>
     <div class="container">
-      <div id="ballon" style="width: 200px; height: 200px; background-color: red">
+      <div id="ballon" style="width: 200px; height: 200px; background-color: red; border-radius: 50%;">
         
       </div>
     </div>
